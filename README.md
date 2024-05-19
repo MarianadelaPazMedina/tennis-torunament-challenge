@@ -7,60 +7,46 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# Tennis Tournament Challenge Description
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Overview
+The goal is to model the behavior of a tennis tournament.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Requirements
+- The tournament format is single elimination.*
+- For simplicity, you can assume the number of players is a power of 2.
+- The tournament can be either Female or Male.
+- Each player has a name and a skill level (between 0 and 100).
+- In a match between two players, the skill level and luck influence the decision of the winner. It is your design choice to decide how luck affects the outcome of the match.
+- In the male tournament, strength and speed are additional parameters to consider when determining the winner.
+- In the female tournament, reaction time is an additional parameter to consider when determining the winner.
+- There are no ties.
+- From a list of players, the tournament must be simulated and the winner should be output.
+- It is recommended to implement the solution in your preferred IDE.
+- Good Object-Oriented Programming (OOP) practices will be valued.
+- You may define any unclear aspects as you see fit. You can add any clarifications you deem necessary when delivering the exercise.
+- Any additional features or extras will be welcomed.
+- Layered modeling or Clean Architecture is preferred.
+- Delivery of the solution via a version control system (GitHub/Bitbucket/etc) is preferred.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Important Notes
+Single elimination is a tournament system where the loser of each match is immediately eliminated from the competition, while the winner advances to the next round. Rounds are played, and in each round, half of the participants are eliminated until only one competitor remains and is crowned the champion.
 
-## Learning Laravel
+### Emphasis
+Special emphasis will be placed on the correct modeling and application of good object-oriented programming practices.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Extra Points
+- **Section 1:** Testing the solution (Unit Testing).
+- **Section 2:** REST API (Swagger + Integration Testing).
+  - Based on a list of players, return the tournament results.
+  - Allow querying the results of successfully completed tournaments based on any of the following criteria:
+    - Date
+    - Male and/or Female Tournament
+    - Other criteria you consider relevant.
+- **Section 3:** Use a non-embedded database.
+- **Section 4:** Deploy the service(s) to AWS/Azure/etc. using Docker or Kubernetes.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Implementation Notes
+- Special emphasis will be placed on the correct modeling and application of good OOP practices.
+- Clean Architecture or layered modeling is preferred.
+- Version control system (GitHub/Bitbucket/etc) is preferred for solution delivery.
