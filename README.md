@@ -53,5 +53,5 @@ Special emphasis will be placed on the correct modeling and application of good 
 
 
 #Domain UML Diagram
-<a href="[https://packagist.org/packages/laravel/framework](https://lucid.app/lucidchart/8c5fac1d-5bc0-4c69-8b12-9e92dc8de830/edit?viewport_loc=-1629%2C763%2C3501%2C2022%2CHWEp-vi-RSFO&invitationId=inv_136dec09-7fc0-4070-8618-0fbaffa02bd4)">[<img src="https://img.shields.io/packagist/l/laravel/framework" alt="License">](https://lucid.app/lucidchart/8c5fac1d-5bc0-4c69-8b12-9e92dc8de830/edit?viewport_loc=-1629%2C763%2C3501%2C2022%2CHWEp-vi-RSFO&invitationId=inv_136dec09-7fc0-4070-8618-0fbaffa02bd4)</a>
+<a href="https://lucid.app/lucidchart/8c5fac1d-5bc0-4c69-8b12-9e92dc8de830/edit?viewport_loc=-1629%2C763%2C3501%2C2022%2CHWEp-vi-RSFO&invitationId=inv_136dec09-7fc0-4070-8618-0fbaffa02bd4">https://lucid.app/lucidchart/8c5fac1d-5bc0-4c69-8b12-9e92dc8de830/edit?viewport_loc=-1629%2C763%2C3501%2C2022%2CHWEp-vi-RSFO&invitationId=inv_136dec09-7fc0-4070-8618-0fbaffa02bd4</a>
 
